@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "12CE197F1DAD4D9A005DC400"
+               BlueprintIdentifier = "12CE199F1DAD6452005DC400"
                BuildableName = "FoodieTime.app"
                BlueprintName = "FoodieTime"
                ReferencedContainer = "container:FoodieTime.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "12CE197F1DAD4D9A005DC400"
+            BlueprintIdentifier = "12CE199F1DAD6452005DC400"
             BuildableName = "FoodieTime.app"
             BlueprintName = "FoodieTime"
             ReferencedContainer = "container:FoodieTime.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "12CE197F1DAD4D9A005DC400"
+            BlueprintIdentifier = "12CE199F1DAD6452005DC400"
             BuildableName = "FoodieTime.app"
             BlueprintName = "FoodieTime"
             ReferencedContainer = "container:FoodieTime.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "12CE197F1DAD4D9A005DC400"
+            BlueprintIdentifier = "12CE199F1DAD6452005DC400"
             BuildableName = "FoodieTime.app"
             BlueprintName = "FoodieTime"
             ReferencedContainer = "container:FoodieTime.xcodeproj">

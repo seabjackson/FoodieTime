@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12CE19841DAD4D9A005DC400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE19831DAD4D9A005DC400 /* AppDelegate.swift */; };
-		12CE19861DAD4D9A005DC400 /* SearchFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE19851DAD4D9A005DC400 /* SearchFoodViewController.swift */; };
-		12CE19891DAD4D9A005DC400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CE19871DAD4D9A005DC400 /* Main.storyboard */; };
-		12CE198B1DAD4D9A005DC400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CE198A1DAD4D9A005DC400 /* Assets.xcassets */; };
-		12CE198E1DAD4D9A005DC400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CE198C1DAD4D9A005DC400 /* LaunchScreen.storyboard */; };
+		12CE19A41DAD6452005DC400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE19A31DAD6452005DC400 /* AppDelegate.swift */; };
+		12CE19A61DAD6452005DC400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE19A51DAD6452005DC400 /* ViewController.swift */; };
+		12CE19A91DAD6452005DC400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CE19A71DAD6452005DC400 /* Main.storyboard */; };
+		12CE19AB1DAD6452005DC400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CE19AA1DAD6452005DC400 /* Assets.xcassets */; };
+		12CE19AE1DAD6452005DC400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CE19AC1DAD6452005DC400 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12CE19801DAD4D9A005DC400 /* FoodieTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodieTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		12CE19831DAD4D9A005DC400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12CE19851DAD4D9A005DC400 /* SearchFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFoodViewController.swift; sourceTree = "<group>"; };
-		12CE19881DAD4D9A005DC400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		12CE198A1DAD4D9A005DC400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		12CE198D1DAD4D9A005DC400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		12CE198F1DAD4D9A005DC400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CE19A01DAD6452005DC400 /* FoodieTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodieTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CE19A31DAD6452005DC400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12CE19A51DAD6452005DC400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12CE19A81DAD6452005DC400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12CE19AA1DAD6452005DC400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12CE19AD1DAD6452005DC400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12CE19AF1DAD6452005DC400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		12CE197D1DAD4D9A005DC400 /* Frameworks */ = {
+		12CE199D1DAD6452005DC400 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12CE19771DAD4D9A005DC400 = {
+		12CE19971DAD6452005DC400 = {
 			isa = PBXGroup;
 			children = (
-				12CE19821DAD4D9A005DC400 /* FoodieTime */,
-				12CE19811DAD4D9A005DC400 /* Products */,
+				12CE19A21DAD6452005DC400 /* FoodieTime */,
+				12CE19A11DAD6452005DC400 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		12CE19811DAD4D9A005DC400 /* Products */ = {
+		12CE19A11DAD6452005DC400 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				12CE19801DAD4D9A005DC400 /* FoodieTime.app */,
+				12CE19A01DAD6452005DC400 /* FoodieTime.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		12CE19821DAD4D9A005DC400 /* FoodieTime */ = {
+		12CE19A21DAD6452005DC400 /* FoodieTime */ = {
 			isa = PBXGroup;
 			children = (
-				12CE19831DAD4D9A005DC400 /* AppDelegate.swift */,
-				12CE19851DAD4D9A005DC400 /* SearchFoodViewController.swift */,
-				12CE19871DAD4D9A005DC400 /* Main.storyboard */,
-				12CE198A1DAD4D9A005DC400 /* Assets.xcassets */,
-				12CE198C1DAD4D9A005DC400 /* LaunchScreen.storyboard */,
-				12CE198F1DAD4D9A005DC400 /* Info.plist */,
+				12CE19A31DAD6452005DC400 /* AppDelegate.swift */,
+				12CE19A51DAD6452005DC400 /* ViewController.swift */,
+				12CE19A71DAD6452005DC400 /* Main.storyboard */,
+				12CE19AA1DAD6452005DC400 /* Assets.xcassets */,
+				12CE19AC1DAD6452005DC400 /* LaunchScreen.storyboard */,
+				12CE19AF1DAD6452005DC400 /* Info.plist */,
 			);
 			path = FoodieTime;
 			sourceTree = "<group>";
@@ -67,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		12CE197F1DAD4D9A005DC400 /* FoodieTime */ = {
+		12CE199F1DAD6452005DC400 /* FoodieTime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12CE19921DAD4D9A005DC400 /* Build configuration list for PBXNativeTarget "FoodieTime" */;
+			buildConfigurationList = 12CE19B21DAD6452005DC400 /* Build configuration list for PBXNativeTarget "FoodieTime" */;
 			buildPhases = (
-				12CE197C1DAD4D9A005DC400 /* Sources */,
-				12CE197D1DAD4D9A005DC400 /* Frameworks */,
-				12CE197E1DAD4D9A005DC400 /* Resources */,
+				12CE199C1DAD6452005DC400 /* Sources */,
+				12CE199D1DAD6452005DC400 /* Frameworks */,
+				12CE199E1DAD6452005DC400 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,27 +81,27 @@
 			);
 			name = FoodieTime;
 			productName = FoodieTime;
-			productReference = 12CE19801DAD4D9A005DC400 /* FoodieTime.app */;
+			productReference = 12CE19A01DAD6452005DC400 /* FoodieTime.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		12CE19781DAD4D9A005DC400 /* Project object */ = {
+		12CE19981DAD6452005DC400 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Seab Jackson";
 				TargetAttributes = {
-					12CE197F1DAD4D9A005DC400 = {
+					12CE199F1DAD6452005DC400 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 86SYWTB5Q2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 12CE197B1DAD4D9A005DC400 /* Build configuration list for PBXProject "FoodieTime" */;
+			buildConfigurationList = 12CE199B1DAD6452005DC400 /* Build configuration list for PBXProject "FoodieTime" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,54 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 12CE19771DAD4D9A005DC400;
-			productRefGroup = 12CE19811DAD4D9A005DC400 /* Products */;
+			mainGroup = 12CE19971DAD6452005DC400;
+			productRefGroup = 12CE19A11DAD6452005DC400 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				12CE197F1DAD4D9A005DC400 /* FoodieTime */,
+				12CE199F1DAD6452005DC400 /* FoodieTime */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		12CE197E1DAD4D9A005DC400 /* Resources */ = {
+		12CE199E1DAD6452005DC400 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12CE198E1DAD4D9A005DC400 /* LaunchScreen.storyboard in Resources */,
-				12CE198B1DAD4D9A005DC400 /* Assets.xcassets in Resources */,
-				12CE19891DAD4D9A005DC400 /* Main.storyboard in Resources */,
+				12CE19AE1DAD6452005DC400 /* LaunchScreen.storyboard in Resources */,
+				12CE19AB1DAD6452005DC400 /* Assets.xcassets in Resources */,
+				12CE19A91DAD6452005DC400 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12CE197C1DAD4D9A005DC400 /* Sources */ = {
+		12CE199C1DAD6452005DC400 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12CE19861DAD4D9A005DC400 /* SearchFoodViewController.swift in Sources */,
-				12CE19841DAD4D9A005DC400 /* AppDelegate.swift in Sources */,
+				12CE19A61DAD6452005DC400 /* ViewController.swift in Sources */,
+				12CE19A41DAD6452005DC400 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		12CE19871DAD4D9A005DC400 /* Main.storyboard */ = {
+		12CE19A71DAD6452005DC400 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				12CE19881DAD4D9A005DC400 /* Base */,
+				12CE19A81DAD6452005DC400 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		12CE198C1DAD4D9A005DC400 /* LaunchScreen.storyboard */ = {
+		12CE19AC1DAD6452005DC400 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				12CE198D1DAD4D9A005DC400 /* Base */,
+				12CE19AD1DAD6452005DC400 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		12CE19901DAD4D9A005DC400 /* Debug */ = {
+		12CE19B01DAD6452005DC400 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		12CE19911DAD4D9A005DC400 /* Release */ = {
+		12CE19B11DAD6452005DC400 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +257,7 @@
 			};
 			name = Release;
 		};
-		12CE19931DAD4D9A005DC400 /* Debug */ = {
+		12CE19B31DAD6452005DC400 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -270,7 +270,7 @@
 			};
 			name = Debug;
 		};
-		12CE19941DAD4D9A005DC400 /* Release */ = {
+		12CE19B41DAD6452005DC400 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -286,24 +286,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12CE197B1DAD4D9A005DC400 /* Build configuration list for PBXProject "FoodieTime" */ = {
+		12CE199B1DAD6452005DC400 /* Build configuration list for PBXProject "FoodieTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12CE19901DAD4D9A005DC400 /* Debug */,
-				12CE19911DAD4D9A005DC400 /* Release */,
+				12CE19B01DAD6452005DC400 /* Debug */,
+				12CE19B11DAD6452005DC400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12CE19921DAD4D9A005DC400 /* Build configuration list for PBXNativeTarget "FoodieTime" */ = {
+		12CE19B21DAD6452005DC400 /* Build configuration list for PBXNativeTarget "FoodieTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12CE19931DAD4D9A005DC400 /* Debug */,
-				12CE19941DAD4D9A005DC400 /* Release */,
+				12CE19B31DAD6452005DC400 /* Debug */,
+				12CE19B41DAD6452005DC400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 12CE19781DAD4D9A005DC400 /* Project object */;
+	rootObject = 12CE19981DAD6452005DC400 /* Project object */;
 }
