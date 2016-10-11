@@ -15,13 +15,38 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hfP-5C-hwf">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <searchBar contentMode="redraw" placeholder="Food name or category" translatesAutoresizingMaskIntoConstraints="NO" id="bHK-jN-fwj">
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="8i1-cn-xTo"/>
+                                </connections>
+                            </searchBar>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bHK-jN-fwj" secondAttribute="trailing" id="5IL-oD-Dc6"/>
+                            <constraint firstItem="bHK-jN-fwj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7Hl-Al-J1u"/>
+                            <constraint firstItem="bHK-jN-fwj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="MTZ-Y9-x4G"/>
+                            <constraint firstItem="hfP-5C-hwf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="W4Q-gU-yyq"/>
+                            <constraint firstAttribute="trailing" secondItem="hfP-5C-hwf" secondAttribute="trailing" id="Wi5-y7-5Vi"/>
+                            <constraint firstItem="hfP-5C-hwf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gxQ-UE-xXy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hfP-5C-hwf" secondAttribute="bottom" id="sG6-8C-xwh"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="searchBar" destination="bHK-jN-fwj" id="DPK-2P-922"/>
+                        <outlet property="tableView" destination="hfP-5C-hwf" id="QyC-tP-ET3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.875" y="133.09859154929578"/>
         </scene>
     </scenes>
 </document>
